@@ -73,13 +73,28 @@
 }
 
 @media screen and (max-width: 424px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    
     .navbar-labels {
         width: auto;
     }
     
     .section-about-p {
-        margin: 0;
+        margin: 0px;
+        padding: 10px;
+        flex-direction: column;
     }
+
+    .section-about-p>p {
+        width: 100%;
+        margin: 10px 0;
+        /* padding: 10px; */
+    }
+    
 
     .contact-form {
         width: 80%;
