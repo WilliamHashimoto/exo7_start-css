@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+
+/* Navbar */
+header {
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-title {
+    width: 50%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.navbar-labels {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.navbar-labels p {
+    margin: auto 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Section Titre */
+
+.section-titre {
+    background-color: #dc3545;
+    display: flex;
+    justify-content: center;
+}
+
+.section-titre>div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.section-titre>div>img {
+    width: 25%;
+    /* margin-left: 90px; */
+}
+
+.section-titre>div>h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px 0 0 0;
+}
+
+.section-titre>div>p {
+    font-size: 17px;
+    margin: 0 0 30px 0;
+}
+
+/* Section Portfolio */
+
+.section-portfolio {
+    color: black;
+    text-align: center;
+}
+
+.section-portfolio>div>h2 {
+    font-size: 35px;
+    margin: 60px 0 0 0;
+}
+
+.section-portfolio-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 300px;
+    
+}
+
+.section-portfolio-img>div>img {
+    width: 230px;
+    border-radius: 15px;
+    margin: 10px;
+} 
+
+/* Section About */
+
+.section-about {
+    background-color: #dc3545;
+    padding: 70px 0;
+}
+
+.section-about>div>h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.section-about-p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 400px;
+}
+
+.section-about-p > p {
+    margin: 10px;
+    width: 400px;
+}
+
+/* Section contact me */
+
+.section-contact-me {
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-contact-me>div>h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 70px;
+}
+
+.contact-form>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form {
+    width: 35%;
+}
+
+.contact-form>form>input {
+    border-style: none;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.contact-form>form>.input-exception {
+    padding-bottom: 120px;
+}
+
+.contact-form>form>input:focus {
+    outline: none;
+}
+
+.button {
+    background-color:#dc3545;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    align-self: flex-start;
+    margin: 30px 0 65px 0;
+}
+
+/* footer  */
+
+.footer-1 {
+    background-color: #2c3e50;
+    display: flex;
+    flex-direction: row;
+}
