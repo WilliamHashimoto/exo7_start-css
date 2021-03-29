@@ -39,7 +39,7 @@ header {
 }
 
 .section-titre>div {
-    width: 50%;
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,7 +47,7 @@ header {
 }
 
 .section-titre>div>img {
-    width: 25%;
+    width: 200px;
     /* margin-left: 90px; */
 }
 
@@ -79,7 +79,8 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 300px;
+    margin: 0 20%;
+    margin-bottom: 50px;
     
 }
 
